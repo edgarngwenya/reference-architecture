@@ -1,5 +1,9 @@
-environment_name = "Development"
+environment_name = "development"
+application_name = "express"
+region = "eu-west-1"
 cidr_block = "10.0.0.0/16"
 public_subnet_cidr_blocks = ["10.0.0.0/24", "10.0.1.0/24", "10.0.2.0/24"]
 private_subnet_cidr_blocks = ["10.0.100.0/24", "10.0.101.0/24", "10.0.102.0/24"]
 availability_zones = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+certificate_arn = "arn:aws:acm:eu-west-1:419229195678:certificate/4e2cac28-d201-447d-84f8-7ca4f129f3e8"
+host_zone_id = "Z3TUL8TBOHSXSR"
